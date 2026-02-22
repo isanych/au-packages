@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>timemem</id>
+    <version>1.0.0.20240722</version>
+    <packageSourceUrl>https://github.com/isanych/au-packages/tree/timemem/timemem</packageSourceUrl>
+    <owners>Igor Kostenko</owners>
+    <title>TimeMem</title>
+    <authors>TimeMem Contributors</authors>
+    <projectUrl>https://github.com/isanych/timemem</projectUrl>
+    <iconUrl>https://github.com/isanych/timemem/blob/master/icon.png?raw=true</iconUrl>
+    <copyright>TimeMem Contributors</copyright>
+    <licenseUrl>https://github.com/isanych/timemem/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/isanych/timemem</projectSourceUrl>
+    <tags>cli foss</tags>
+    <summary>time -v alternative for windows</summary>
+    <description><![CDATA[This is a Windows utility which executes a program and displays its execution time, memory usage, and IO statistics. It is similar in functionality to the Unix time utility.
+]]></description>
+    <releaseNotes>https://github.com/isanych/timemem/releases/tag/v1.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
