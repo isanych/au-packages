@@ -6,13 +6,13 @@ Package can be verified like this:
 
 1. Go to https://github.com/isanych/timemem/releases, and look for the official binaries provided.
 
-   url: https://github.com/isanych/timemem/releases/download/v1.0/timemem.exe
+   url: https://github.com/isanych/timemem/releases/download/v2.0/timemem.exe
 
 2. You can use one of the following methods to obtain the SHA256 checksum
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: 5F8E45FCEBC0949D77D428FDA2902CDD1AAE16ABD128B5036FCB7D96BE00DCFE
+   checksum: 741C35165E9E68D34D616E3992231F885431458E3808FDEDA6B8895249F1F42A
 
 File 'LICENSE.txt' obtained from:
    https://github.com/isanych/timemem/blob/master/LICENSE

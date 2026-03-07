@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>timemem</id>
-    <version>1.0.0.20240722</version>
+    <version>2.0</version>
     <packageSourceUrl>https://github.com/isanych/au-packages/tree/timemem/timemem</packageSourceUrl>
     <owners>Igor Kostenko</owners>
     <title>TimeMem</title>
@@ -18,7 +18,7 @@
     <summary>time -v alternative for windows</summary>
     <description><![CDATA[This is a Windows utility which executes a program and displays its execution time, memory usage, and IO statistics. It is similar in functionality to the Unix time utility.
 ]]></description>
-    <releaseNotes>https://github.com/isanych/timemem/releases/tag/v1.0</releaseNotes>
+    <releaseNotes>https://github.com/isanych/timemem/releases/tag/v2.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

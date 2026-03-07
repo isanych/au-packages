@@ -24,7 +24,7 @@ function global:au_SearchReplace {
  function global:au_BeforeUpdate { Get-RemoteFiles -Purge -NoSuffix }
 
 function global:au_GetLatest {
-    $url = Get-GitHubReleaseUrl $GitHubRepositoryUrl
+    $url = Get-GitHubReleaseUrl $GitHubRepositoryUrl 'timemem\.exe$'
     $version = $url -split '/' | select -Last 1 -Skip 1
 
     return @{
